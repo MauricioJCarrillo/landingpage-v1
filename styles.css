@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  background-color: #003853;
+}
+
+.img-header {
+  width: 150px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 2rem;
+}
+
+.info-section p {
+  color: white;
+
+}
+
+.info-section a {
+  margin-left: 15px;
+  color: #f7981d;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
